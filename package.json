@@ -1,0 +1,27 @@
+{
+  "name": "es6-articles",
+  "version": "1.0.0",
+  "description": "wesbos es6 courses js examples",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danvitoriano/es6-articles.git"
+  },
+  "keywords": [
+    "js",
+    "es6",
+    "wesbos"
+  ],
+  "author": "dnvtrn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danvitoriano/es6-articles/issues"
+  },
+  "homepage": "https://github.com/danvitoriano/es6-articles#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}
