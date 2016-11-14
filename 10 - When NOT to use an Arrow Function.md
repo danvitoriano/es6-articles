@@ -134,7 +134,7 @@ Car.prototype.summarize = function() {
 };
 ```
 
-Now, if we call `subie.summarize`, it says it's a white Subaru, and `beemer.summarize`, we get BMW in blue. 
+Now, if we call `subie.summarize()`, it says it's a white Subaru, and `beemer.summarize()`, we get BMW in blue. 
 
 Again, you must use a regular function for that. 
 
