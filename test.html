@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Test Examples Suite</title>
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script id="load-script">
+  </script>
+</head>
+
+<body>
+  <form id="filename-sender">
+    <label for="filename">Choose script file name:
+      <select name="filename" id="filename" tabindex="1" autofocus="">
+        <option value="/js/01-let.js">01-let.js</option>
+        <option value="/js/02-const.js">02-const.js</option>
+        <option value="/js/03.1-block-scope-IIFE.js">03.1-block-scope-IIFE.js</option>
+        <option value="/js/03.2-let-for-loops.js">03.2-let-for-loops.js</option>
+        <option value="/js/04-temporal-dead-zone.js">04-temporal-dead-zone.js</option>
+        <option value="/js/05-var-let-const.js">05-var-let-const.js</option>
+        <option value="/js/06-arrow-functions.js">06-arrow-functions.js</option>
+        <option value="/js/07-more-arrow-functions.js">07-more-arrow-functions.js</option>
+        <option value="/js/08-arrow-functions-this.js">08-arrow-functions-this</option>
+        <option value="/js/09-default-function-arguments.js">09-default-function-arguments.js</option>
+        <option value="/js/10-not-use-arrow-function.js">10-not-use-arrow-function.js</option>
+      </select>
+    </label>
+    <input type="submit" id="submit" value="submit" tabindex="2">
+  </form>
+  <p id="text">
+  </p>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
