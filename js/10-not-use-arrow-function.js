@@ -34,7 +34,6 @@ button.addEventListener('click', function() {
 
 // ### #2: Object Methods
 
-// Now, let's take a look at this next one, 
 // when you need a method to bind to an object. 
 
 const person = {
@@ -69,6 +68,9 @@ const subie = new Car("Subaru", "white");
 Car.prototype.summarize = function() {
     return `This car is a ${this.make} in the colour ${this.colour}`;  
 };
+
+console.log(subie.summarize());
+console.log(beemer.summarize());
 
 // ### 4: When you need an arguments Object
 
